@@ -22,7 +22,7 @@ const Skills = () => {
               par.firstElementChild.style.marginLeft = "-" + start + "px";
               par.firstElementChild.style.transition = "500ms";
             }
-            setTimeout(scroll, 1000); //repeat after 100ms
+            setTimeout(scroll, 700); //repeat after 100ms
           };
           scroll();
         })();
@@ -33,79 +33,86 @@ const Skills = () => {
           <div className="Carousel" id="Carousel">
             {[
               {
-                name: `Bootstrap`,
-                tag: `B`,
-                color: `#62247a`,
-                img:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-              },
-              {
-                name: `Bootstrap`,
-                tag: `B`,
+                name: `Coisa Linda`,
+                tag: `T`,
                 color: `#444`,
                 img:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
               },
               {
-                name: `Bootstrap`,
-                tag: `C`,
-                color: `#f9f9f9`,
-                img:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-              },
-              {
-                name: `Bootstrap`,
-                tag: `D`,
-                color: `#df9877`,
-                img:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-              },
-              {
-                name: `Bootstrap`,
+                name: `Fofura`,
                 tag: `E`,
-                color: `#a8d8f5`,
-                img:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-              },
-              {
-                name: `PHP`,
-                tag: `P`,
-                color: `#345bac`,
-                img:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-              },
-              {
-                name: `Bootstrap`,
-                tag: `G`,
                 color: `#444`,
                 img:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
               },
               {
-                name: `Bootstrap`,
-                tag: `H`,
-                color: `#444`,
+                name: `Gatona`,
+                tag: `A`,
+                color: `#ed3261`,
                 img:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
               },
               {
-                name: `Bootstrap`,
-                tag: `I`,
-                color: `#444`,
+                name: `Gostosa`,
+                tag: `M`,
+                color: `#ed3261`,
                 img:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
               },
               {
-                name: `Bootstrap`,
-                tag: `J`,
-                color: `#444`,
+                name: `deusa`,
+                tag: `O`,
+                color: `#ed3261`,
                 img:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
               },
               {
-                name: `Bootstrap`,
-                tag: `K`,
-                color: `#444`,
+                name: `Charmosa`,
+                tag: `V`,
+                color: `#9f32ed`,
+                img:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+              },
+              {
+                name: `Cheirosa`,
+                tag: `A`,
+                color: `#9f32ed`,
+                img:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+              },
+              {
+                name: `Tesuda`,
+                tag: `N`,
+                color: `#9f32ed`,
+                img:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+              },
+              {
+                name: `Pitéu`,
+                tag: `E`,
+                color: `#9f32ed`,
+                img:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+              },
+              {
+                name: `Mulherão da porra`,
+                tag: `S`,
+                color: `#9f32ed`,
+                img:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+              },
+              {
+                name: `Saborosa`,
+                tag: `S`,
+                color: `#9f32ed`,
+                img:
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+              },
+              {
+                name: `Suculenta`,
+                tag: `A`,
+                color: `#9f32ed`,
                 img:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
               },
