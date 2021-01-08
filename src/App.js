@@ -15,7 +15,7 @@ const App = () => {
         </a>
       </div>
       <header className="App-header">
-        <div className="Container">
+        <div className="Container Text-Center">
           <div className="Editor-Container">
             <img src={logo} className="App-logo" alt="logo" />
           </div>
