@@ -15,11 +15,13 @@ const App = () => {
         </a>
       </div>
       <header className="App-header">
-        <div className="Editor-Container">
-          <img src={logo} className="App-logo" alt="logo" />
+        <div className="Container">
+          <div className="Editor-Container">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+          <br />
+          <Skills />
         </div>
-        <br/>
-        <Skills />
       </header>
     </div>
   );

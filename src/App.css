@@ -54,7 +54,6 @@ body {
 }
 
 .Tech-Slideshow .Carousel {
-  width: 78vw;
   overflow: hidden;
   border-radius: .7em;
   display: inline-flex;
@@ -137,4 +136,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .Container, .Editor-Container, .Tech-Slideshow .Carousel {
+    width: 100% !important;
+  }
+
+  .Container {
+    padding: 0 15px;
+  }
 }
