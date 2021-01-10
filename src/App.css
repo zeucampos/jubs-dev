@@ -56,12 +56,11 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Tech-Slideshow .Carousel div {
+  .Tech-Slideshow .Carousel .Item {
     min-width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #9c1dce, #ce1da8);
     border-radius: .6em;
-    padding: 30px;
+    padding: 25px 30px 35px;
     margin: 0 10px;
   }
 
