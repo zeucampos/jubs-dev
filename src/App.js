@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import * as React from "react";
 import Skills from "./components/Skills";
-import './App.css';
+import "./App.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Button, Container, Row, Col } from "react-bootstrap";
 
-const App = () => { 
+const App = () => {
   return (
     <div className="App">
       <Container className="Container">
@@ -24,13 +26,18 @@ const App = () => {
         </Row>
       </Container>
       <header className="App-header">
-        <div className="Container Text-Center">
-          <div className="Editor-Container">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
-            
-          </div>
-          <br />
-          <Skills />
+        <div className="Container">
+          <Row>
+            <Col>
+              <div className="Editor-Container Text-Center">
+                {/* <img src={logo} className="App-logo" alt="logo" /> */}
+              </div>
+            </Col>
+
+            <Col>
+              <Skills />
+            </Col>
+          </Row>
         </div>
       </header>
     </div>
