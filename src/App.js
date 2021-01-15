@@ -1,10 +1,10 @@
 import * as React from "react";
 import Skills from "./components/Skills";
-import "./App.css";
+import "./App.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Button, Nav, Container, Row, Col } from "react-bootstrap";
 
 const App = () => {
   return (
@@ -19,26 +19,55 @@ const App = () => {
               </div>
             </a>
           </Col>
-          {/* <Col>
-            <Button>Teste</Button>
-          </Col> */}
+          <Col className="text-right">
+            <Nav className="ml-auto" style={{ width: "fit-content" }}>
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#features">Features</Nav.Link>
+              <Nav.Link href="#pricing">Pricing</Nav.Link>
+            </Nav>
+          </Col>
         </Row>
       </Container>
-      <header className="App-header">
-        <div className="Container">
-          <Row>
-            <Col>
-              <div className="Editor-Container Text-Center">
-                {/* <img src={logo} className="App-logo" alt="logo" /> */}
-              </div>
-            </Col>
+      <Container>
+        <Row className="App-header">
+          <Col className="vertical-center">
+            <div>
+              <h1 class="glitch" data-text="Hello World!">
+                Hello World!
+              </h1>
+            </div>
+            {/* <h4 className="text-muted">
+              PRECISA DE UM FREELANCER?
+            </h4> */}
 
-            <Col>
-              <Skills />
-            </Col>
-          </Row>
-        </div>
-      </header>
+            <Row className="justify-content-center ">
+              <Col md={8}>
+                <p className="text-muted text-center">
+                  Olá, sou Eliseu Campos ou Jubs =D, desenvolvedor full stack. 6
+                  anos de experiência em desenvolvimento. Tendo experiência em
+                  desenvolvimento de <strong>Aplicativos Mobile</strong>,
+                </p>
+              </Col>
+            </Row>
+
+            <div>
+              <Button>CONTATO</Button>
+            </div>
+          </Col>
+          {/* <Col></Col> */}
+        </Row>
+        <Row>
+          <Col>
+            <div className="Editor-Container Text-Center">
+              {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            </div>
+          </Col>
+
+          <Col>
+            <Skills />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
