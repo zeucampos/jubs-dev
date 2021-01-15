@@ -1,5 +1,6 @@
 import * as React from "react";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import "./App.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -68,6 +69,7 @@ const App = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };
