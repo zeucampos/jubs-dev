@@ -57,13 +57,13 @@ const App = () => {
           {/* <Col></Col> */}
         </Row>
         <Row>
-          <Col>
+          <Col md={8}>
             <div className="Editor-Container Text-Center">
               {/* <img src={logo} className="App-logo" alt="logo" /> */}
             </div>
           </Col>
 
-          <Col>
+          <Col md={4}>
             <Skills />
           </Col>
         </Row>
