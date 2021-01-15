@@ -9,31 +9,30 @@ import { Button, Nav, Container, Row, Col } from "react-bootstrap";
 
 const App = () => {
   return (
-    <div className="App">
-      <Container className="Container">
+    <div className="app">
+      <Container className="container">
         <Row>
           <Col>
             <a href="/">
-              <div className="Logo">
-                <div className="Logo-Slug">JJ</div>
+              <div className="logo">
+                <div className="logo-slug">JJ</div>
                 <span>JOBS JUBS</span>
               </div>
             </a>
           </Col>
           <Col className="text-right">
             <Nav className="ml-auto" style={{ width: "fit-content" }}>
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#portfolio">Jobs</Nav.Link>
+              <Nav.Link href="#contact">Contato</Nav.Link>
             </Nav>
           </Col>
         </Row>
       </Container>
       <Container>
-        <Row className="App-header">
+        <Row className="app-header">
           <Col className="vertical-center">
             <div>
-              <h1 class="glitch" data-text="Hello World!">
+              <h1 className="glitch" data-text="Hello World!">
                 Hello World!
               </h1>
             </div>
@@ -59,7 +58,7 @@ const App = () => {
         </Row>
         <Row>
           <Col md={8}>
-            <div className="Editor-Container Text-Center">
+            <div className="editor-container text-center">
               {/* <img src={logo} className="App-logo" alt="logo" /> */}
             </div>
           </Col>
