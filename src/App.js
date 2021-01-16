@@ -1,6 +1,7 @@
 import * as React from "react";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Menu from "./components/Menu";
 import "./App.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,24 +11,7 @@ import { Button, Nav, Container, Row, Col } from "react-bootstrap";
 const App = () => {
   return (
     <div className="app">
-      <Container className="container">
-        <Row>
-          <Col>
-            <a href="/">
-              <div className="logo">
-                <div className="logo-slug">JJ</div>
-                <span>JOBS JUBS</span>
-              </div>
-            </a>
-          </Col>
-          <Col className="text-right">
-            <Nav className="ml-auto" style={{ width: "fit-content" }}>
-              <Nav.Link href="#portfolio">Jobs</Nav.Link>
-              <Nav.Link href="#contact">Contato</Nav.Link>
-            </Nav>
-          </Col>
-        </Row>
-      </Container>
+      <Menu />
       <Container>
         <Row className="app-header">
           <Col className="vertical-center">
@@ -43,15 +27,28 @@ const App = () => {
             <Row className="justify-content-center ">
               <Col md={8}>
                 <p className="text-muted text-center">
-                  Olá, sou Eliseu Campos ou Jubs =D, desenvolvedor full stack. 6
-                  anos de experiência em desenvolvimento. Tendo experiência em
-                  desenvolvimento de <strong>Aplicativos Mobile</strong>,
+                  Olá, sou Eliseu Campos ou Jubs =D, desenvolvedor full stack.
+                  Com experiência em desenvolvimento de{" "}
+                  <strong className="primary-text">Aplicativos Mobile</strong>,{" "}
+                  <strong className="primary-text">
+                    REST API, Desenvolvimento de software
+                  </strong>{" "}
+                  em <strong className="primary-text">NodeJS,</strong>{" "}
+                  <strong className="primary-text">PHP,</strong>{" "}
+                  <strong className="primary-text">JavasScript,</strong>{" "}
+                  <strong className="primary-text">Dart,</strong>{" "}
+                  Desenvolvimento de websites em{" "}
+                  <strong className="primary-text">Wordpress,</strong>{" "}
+                  <strong className="primary-text">HTML 5,</strong>{" "}
+                  <strong className="primary-text">CSS 3,</strong>{" "}
+                  <strong className="primary-text">Webpacks,</strong> e muito
+                  mais.
                 </p>
               </Col>
             </Row>
 
             <div>
-              <Button>CONTATO</Button>
+              <Button className="btn-secondary">CONTATO</Button>
             </div>
           </Col>
           {/* <Col></Col> */}
