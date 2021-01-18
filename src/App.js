@@ -6,7 +6,7 @@ import "./App.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Button, Nav, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
 const App = () => {
   return (
