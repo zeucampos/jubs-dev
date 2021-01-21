@@ -2,8 +2,10 @@ import * as React from "react";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
+import StretchCode from "./components/StretchCode";
 import "./App.scss";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Button, Container, Row, Col } from "react-bootstrap";
@@ -56,6 +58,7 @@ const App = () => {
         <Row>
           <Col md={8}>
             <div className="editor-container text-center">
+              <StretchCode />
               {/* <img src={logo} className="App-logo" alt="logo" /> */}
             </div>
           </Col>
