@@ -66,7 +66,7 @@ const Skills = () => {
             ].map((item, idx) => (
                 <div key={idx} className="carousel-item text-center" style={{ color: '#d6d6d6', background: item.backgroundColor }}>
                     <div className="item-image">
-                        <img src={item.img} className="img-fluid" />
+                        <img src={item.img} className="img-fluid" alt={item.name} />
                     </div>
                     <br />
                     <h5 style={{ color: item.color }}>{item.name}</h5>
