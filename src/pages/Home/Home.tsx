@@ -13,7 +13,7 @@ const Home = () => {
             <p>
               I develop apps to your mobile device and web browsers. <br />
               if you want to know more about me, you can visit{" "}
-              <a href="#">my biography</a>
+              <a href="https://jobsjubs.com/bio">my bio</a>
             </p>
             <S.Row>
               <Button>make a budget</Button>
